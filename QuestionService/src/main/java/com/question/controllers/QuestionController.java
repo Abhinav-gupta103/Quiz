@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.question.entities.Question;
 import com.question.services.QuestionService;
-import org.springframework.web.bind.annotation.RequestParam;
 
 @RestController
 @RequestMapping("/question")
