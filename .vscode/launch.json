@@ -2,6 +2,12 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ApiGatewayApplication",
+      "request": "launch",
+      "mainClass": "com.gateway.ApiGateway.ApiGatewayApplication"
+    },
+    {
+      "type": "java",
       "name": "ServiceRegistryApplication",
       "request": "launch",
       "mainClass": "com.registry.ServiceRegistryApplication",
@@ -24,6 +30,16 @@
       "cwd": "${workspaceFolder}",
       "mainClass": "com.quiz.QuizServiceApplication",
       "projectName": "QuizService",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ApiGatewayApplication<ApiGateway>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.gateway.ApiGateway.ApiGatewayApplication",
+      "projectName": "ApiGateway",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
     }
